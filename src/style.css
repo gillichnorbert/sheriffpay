@@ -1,0 +1,79 @@
+#itemButton {
+    width: 18rem; margin-top: 10px; margin-right: 10px; display: inline-block;
+}
+
+
+#summary {
+    display: block;
+    float: right;
+    background-color: aqua;
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+    margin: 0;
+}
+
+#categories {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    background-color: black;
+    padding-left: 20px;
+}
+
+li {
+    list-style-type: none;
+  }
+
+.itmes {
+    margin-left: 20px;
+}
+
+.fixed-summary {
+    position: fixed;
+    top: 56px;
+    right: 0;
+    width: 25%; /* A sáv szélessége */
+    min-height: 100%; /* Minimum magasság, hogy mindig teljes magasságú legyen */
+    background-color: #f8f9fa; /* Háttérszín */
+    padding: 10px 20px 20px 20px; /* Belső térköz */
+    
+  }
+
+.total {
+    border-top: 1px solid #ccc;
+    position: fixed;
+    top: 93%;
+    width: 22%;
+}
+
+.totalText {
+    position: relative;
+    margin-top: 15px;
+}
+
+.totalText span {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+
+#clearListBtn {
+    margin-bottom: 10px;
+    margin-left: auto;
+    right: 0;
+}
+
+/* style.css */
+
+/* A Pultos felület gomb áthelyezése a bal felső sarokba */
+#adminButton {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
